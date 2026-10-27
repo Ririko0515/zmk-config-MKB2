@@ -1,4 +1,6 @@
 #include <dt-bindings/zmk/input_transform.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -23,7 +25,7 @@
         compatible = "zmk,input-listener";
         device = <&trackball2>;
         status = "okay";
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, 
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>,
                            <&zip_xy_scaler 0 1 1 1>,
                            <&zip_xy_to_scroll_mapper &scroll_runtime_input_processor>;
     };
@@ -49,4 +51,3 @@
         y-input-code = <INPUT_REL_Y>;
     };
 };
-
