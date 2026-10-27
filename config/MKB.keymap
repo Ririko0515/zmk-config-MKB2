@@ -64,7 +64,7 @@
             bindings = <
 &trans     &trans   &kp RBKT    &kp AT     &kp NUHS     &trans        &trans   &trans     &kp UP      &trans     &trans     &trans
 &trans     &trans   &kp STAR    &kp AMPS   &kp LPAR     &trans        &trans   &kp LEFT   &kp DOWN    &kp RIGHT  &trans     &trans
-&trans     &trans   &kp RBRC    &trans     &kp TILDE2   &trans        &trans   &trans     &kp QMARK   &kp EXCL   &trans     &trans
+&trans     &trans   &kp RBRC    &trans     &kp TILDE2   &trans        &trans   &kp EXCL   &kp QMARK   &kp SQT    &kp SEMI   &trans
 &trans     &trans   &trans                 &mo 4        &trans        &trans   &trans                 &trans     &trans     &trans
 &kp LEFT   &kp UP   &kp SPACE   &kp DOWN   &kp RIGHT                           &kp HOME   &kp PG_UP   &kp ENTER  &kp PG_DN  &kp END
                                 &none                                                   　&none
