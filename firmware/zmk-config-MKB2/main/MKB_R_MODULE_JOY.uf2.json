@@ -5,7 +5,7 @@
   },
   "generated": {
     ".config": "c522531e3624cdd28da7a7653dcbbbe75b5a6ff6d6b0673d01a01b669db0e38d",
-    "zephyr.dts": "12a86715dd05948e97c384005a20d99459ad8bbf5aa668a431ac8d0f477ac6d7"
+    "zephyr.dts": "19e80be8663117e58f779d75a22d4a6dd5d7dd118754785393db3deb85a8e144"
   },
   "inputs": {
     "dependencies": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "cafd9f69940408d2c38f557b4ee80c368126ff0c",
+      "commit": "fdd112bdb49854e2a4b9e0e6da294268e947f0ed",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "39374584896",
+  "run_id": "40453131086",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_JOY",
